@@ -1,0 +1,30 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+}
+
+subprojects {
+    apply plugin: 'application'
+    apply plugin: 'java'
+
+    sourceCompatibility = 11
+
+    repositories {
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+    }
+
+    sourceSets {
+        main.java.srcDir 'src'
+    }
+
+    compileJava.options.encoding = 'UTF-8'
+    tasks.withType(JavaCompile) {
+        options.encoding = 'UTF-8'
+    }
+}
+
+wrapper {
+    gradleVersion = '5.3.1'
+}
