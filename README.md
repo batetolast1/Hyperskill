@@ -77,6 +77,25 @@ From the oldest to the newest:
 - The secret enumeration
 - Currencies
 - Robot control
+- Initializing an array of integers
+- Harry Potter
+- Javadoc comment
+- Exactly one parameter is positive
+- Account
+- Representing time as a class
+- Vowel or not
+- Book
+- What's wrong?
+- Uncomment a line
+- The number of tens
+- The largest element of a sequence
+- Symmetric matrix
+- Pretty looking pattern
+- Fix the program
+- Fix compile-time errors
+- Division
+- Check the value
+- Check sudoku
 
 # Additional information
 All tasks can be found on https://hyperskill.org
